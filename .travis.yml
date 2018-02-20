@@ -1,9 +1,9 @@
 language: ruby
 cache: bundler
 rvm:
-  - 2.4.3
+- 2.4.3
 script: bundle exec rspec
 deploy:
   provider: heroku
   api_key:
-    secure: 2033ab000844f9794d891dfee6aa2413d5108ec3a75eb1ff3800ede289542553f70f598454bb6368022f1c451f7879f3975083abe3721b1b4db3935028f5f312
+    secure: Bp2uaeQxaGacC6k4lCEnBX8t+UK9YwVF1sRuIArvvzxm+s6ky4EOk3MX5aIOrzDNNl45yAJ1gx7g6xDjh8BPD08UwBX7puqqqD88Q4gzthsLEWQwg2XIuUWrytGD/blrf4Py/84zvceBDpJ+8PN1fFQlJLjLOTgb161PM+1y+neG9pcBI0RoSWMf8ivt/44yDTxShJilj0lcE6jtnP5IAalC9DEo/FnjhgrKmRjovYiB0gt7wKV7tkFKFHI79dFNaaJO4mqfOpHv/yT60/TTa7Om6GbYSGCZeJhWZmgCIec52qHgg2tgfexFet/HJZITOyuNHA5YGCnRyltOQ346eCsBERi/MIUo0+au6vMMmcOM0ulud68juXZoxSCq+GCPBFOLHz/fl/XsWr9uj5aenWFfwlZhSYThC50gKEtN8LGmMcM+Na8BOrdjmvK/gh4032dTijvwd97n7mYyISMHmKvbVG121WXsxxU6dKxj7LkG16CruvF1uJSpQt/SgfilqjZVn639P0U3WZL6eZINIQPcHIrzfk+sGqCgYxAMbSsjonoax6HZmope/JifLW4JHPIrQ8Mewap/zNRg1CHtM7DHbF9/hP3CtFJeg6pBzLmTpQY9g41sSc4p6JIEXfHEAVF1O+c43EU4zsBOaTzFP1HZxNYYmdFNll7Z+SI82Dk=
