@@ -1,17 +1,13 @@
 When("user visit the site") do
-visit root_path
+  visit root_path
 end
 
-Then("user click on {string} button") do |content|
-  expect(page).to have_content content
-end
-
-Then("he can fill in the sign-in form") do
-  pending # Write code here that turns the phrase above into concrete actions
+Then("user click on {string} button") do |button|
+  click_on(button)
 end
 
 Then("He fills in {string} with {string}") do |string, string2|
-  pending # Write code here that turns the phrase above into concrete actions
+  fill_in 'Name', :with => 'Fleur'
 end
 
 Then("he fills in {string} with {string}") do |string, string2|
