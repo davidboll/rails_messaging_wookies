@@ -9,15 +9,20 @@ end
 Then("He fills in {string} with {string}") do |string, string2|
   fill_in 'Name', :with => 'Fleur'
 end
+#
+# Then("he fills in {string} with {string}") do |string, string2|
+#  fill_in "email", :with "wookie@email.com"
+# end
 
-Then("he fills in {string} with {string}") do |string, string2|
-  fills_in 'email', :with => 'wookie@email.com'
-end
+
+# Then("he fills in {string} with {string}") do |field, input|
+#   fill_in(field, :with => input)
+# end
 
 Then("He clicks {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+  click_on(string)
 end
 
-Then("He sees message {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+Then("He sees message {string}") do |message|
+  page.should have_content message
 end
