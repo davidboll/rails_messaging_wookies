@@ -7,7 +7,6 @@ Feature: User can sign up
   Scenario: Creates and account
     Given user visit the site
     Then user click on "Sign up" button
-    And he can fill in the sign-in form
     And He fills in "name" with "Fleur"
     And he fills in "email" with "wookie@email.com"
     And He fills in "password" with "password11"
