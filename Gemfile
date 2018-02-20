@@ -5,6 +5,7 @@ gem 'rails', '5.1.5'
 
 gem 'bootstrap-sass'
 gem 'chosen-rails'
+gem 'coveralls', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
