@@ -11,7 +11,7 @@ Then("He fills in {string} with {string}") do |string, string2|
 end
 
 Then("he fills in {string} with {string}") do |string, string2|
-  pending # Write code here that turns the phrase above into concrete actions
+  fills_in 'email', :with => 'wookie@email.com'
 end
 
 Then("He clicks {string}") do |string|
