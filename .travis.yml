@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 rvm:
   - 2.4.0
-script:
+script: bundle exec rspec
 deploy:
   provider: heroku
   api_key:
