@@ -4,7 +4,7 @@ Feature: User can sign up
   There should be a sign-up form on my site
 
 
-  Scenario: Creates and account
+  Scenario: User creates an account
     Given user visit the site
     Then user click on "Sign up" button
     And He fills in "name" with "Fleur"
