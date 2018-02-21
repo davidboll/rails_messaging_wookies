@@ -21,7 +21,9 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'factory_bot_rails'
+  gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 
 group :development do
