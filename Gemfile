@@ -24,6 +24,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'pry-rails'
   gem 'shoulda-matchers'
+  gem 'launchy'
 end
 
 

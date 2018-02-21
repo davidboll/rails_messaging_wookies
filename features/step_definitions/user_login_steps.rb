@@ -1,3 +1,9 @@
+Given("following user exist") do |table|
+  table.hashes.each do |user|
+    FactoryBot.create(:user, user)
+  end
+end
+
 Given("I am on the landing-page") do
   visit root_path
 end
@@ -14,15 +20,13 @@ When("I click {string} button") do |name|
   click_button(name)
 end
 
-Given(/^I am logged in as "([^"]*)"$/) do |name|
-  # user = User.find_by(name: name)
-  # login_as(user, scope: :user)
+Given("I am logged in") do
   user = FactoryBot.create(:user)
   login_as(user, :scope => :user, :run_callbacks => false)
 end
 
-Then("I should be redirected to {string}") do |string|
-  visit root_path
+Then("show me the page") do
+  save_and_open_page
 end
 
 Then("I should see {string}") do |message|
