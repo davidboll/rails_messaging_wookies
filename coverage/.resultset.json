@@ -1,0 +1,30 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/davidboll/projects/rails_messaging_wookies/spec/models/user_spec.rb": [
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1519196998
+  }
+}
