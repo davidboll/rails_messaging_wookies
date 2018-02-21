@@ -4,13 +4,13 @@ Feature: User can sign up
   There should be a sign-up form on my site
 
 
-  Scenario: User creates an account
+  Scenario: Creates and account
     Given user visit the site
     Then user click on "Sign up" button
-    And He fills in "name" with "Fleur"
-    # And he fills in "email" with "wookie@email.com"
-    # And He fills in "password" with "password11"
-    # And He fills in "password_confirmation" with "password11"
+    And He fills in "Name" with "Fleur"
+    And He fills in "Email" with "wookie@email.com"
+    And He fills in "Password" with "password11"
+    And He fills in "Password_confirmation" with "password11"
     And He clicks "Create"
     And He sees message "Welcome! You have signed up successfully."
 

@@ -6,18 +6,14 @@ Then("user click on {string} button") do |button|
   click_on(button)
 end
 
-Then("He fills in {string} with {string}") do |string, string2|
-  fill_in 'Name', :with => 'Fleur'
+Then("He fills in {string} with {string}") do |input, value|
+  fill_in(input, :with => value)
 end
 
-Then("he fills in {string} with {string}") do |string, string2|
-  pending # Write code here that turns the phrase above into concrete actions
+Then("He clicks {string}") do |button|
+  click_on(button)
 end
 
-Then("He clicks {string}") do |string|
-  click_on(string)
-end
-
-Then("He sees message {string}") do |message|
-  page.should have_content message
+Then("He sees message {string}") do |string|
+  expect(page).to have_content string
 end
