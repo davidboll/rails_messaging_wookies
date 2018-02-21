@@ -15,8 +15,10 @@ When("I click {string} button") do |name|
 end
 
 Given(/^I am logged in as "([^"]*)"$/) do |name|
-  user = User.find_by(name: name)
-  login_as(user, scope: :user)
+  # user = User.find_by(name: name)
+  # login_as(user, scope: :user)
+  user = FactoryBot.create(:user)
+  login_as(user, :scope => :user, :run_callbacks => false)
 end
 
 Then("I should be redirected to {string}") do |string|
