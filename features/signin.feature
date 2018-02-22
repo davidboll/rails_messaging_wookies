@@ -3,12 +3,11 @@ Feature: User can sign up
   So visitors can create an account
   There should be a sign-up form on my site
 
-
   Scenario: Creates and account
     Given user visit the site
     Then user click on "Sign up" button
-    And He fills in "Name" with "Fleur"
-    And He fills in "Email" with "wookie@email.com"
+    And He fills in "Name" with "Aiden"
+    And He fills in "Email" with "aiden@email.com"
     And He fills in "Password" with "password11"
     And He fills in "Password confirmation" with "password11"
     And He clicks "Create"
