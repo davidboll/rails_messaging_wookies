@@ -1,23 +1,21 @@
-Feature: User can send a message
- As a User
- In order to send a message
- I should be able to create a message
+Feature: User can send and receive messages
+  As a User
+  In order to contact my friends
+  I should be able to send and receive messages
 
- Background:
-  Given following user exists
-    | name    | email             | password |
-    | David   | david@test.com    | password |
-    | Aiden   | aiden@test.com    | password |
+  Background:
+    Given following user exists
+      | name    | email             | password |
+      | David   | david@test.com    | password |
+      | Aiden   | aiden@test.com    | password |
 
- Scenario:
-   Given I am logged in
-   Then I am redirected to inbox page
-   Then I see "Hello, person"
-   Then I click "Inbox" link
-   Then I click "Compose" link
-   # And I choose "Aiden" as a "Recipient"
-   # And I fill in "Subject" with "Hi"
-   # Then show me the page
-   # And I fill in "Conversation" with "Fun Text"
-   And I send a mail to "David"
-   Then I see "Your message was successfully sent!"
+  Scenario: Sending and receiving a message
+    Given I am logged in as "Aiden"
+    And I send a mail to "David"
+    And I am on the "home page"
+    And I click "Logout" link
+    Given I am logged in as "David"
+    And I am on the "home page"
+    And I click "Inbox" link
+    Then I am redirected to my inbox
+    Then I should have "1" messages
