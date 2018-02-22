@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Antonella/Projects/rails_messaging_wookies/spec/models/user_spec.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -23,67 +23,13 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/spec/rails_helper.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
+      "/Users/davidboll/projects/rails_messaging_wookies/spec/rails_helper.rb": [
         1,
         null,
         1,
         1,
         1,
         1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/environment.rb": [
-        null,
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/application.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -93,21 +39,76 @@
         1,
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/boot.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/davidboll/projects/rails_messaging_wookies/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/davidboll/projects/rails_messaging_wookies/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/environments/test.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/environments/test.rb": [
         1,
         null,
         null,
@@ -152,7 +153,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/assets.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -165,7 +166,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/backtrace_silencers.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -174,12 +175,12 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/cookies_serializer.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/devise.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -446,13 +447,13 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/filter_parameter_logging.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/inflections.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -470,7 +471,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/mailboxer.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/mailboxer.rb": [
         1,
         null,
         null,
@@ -493,18 +494,18 @@
         1,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/mime_types.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/session_store.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/initializers/wrap_parameters.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -520,7 +521,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/spec/factories/user.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/spec/factories/user.rb": [
         1,
         1,
         1,
@@ -529,7 +530,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/config/routes.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/config/routes.rb": [
         1,
         null,
         1,
@@ -553,7 +554,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/app/models/user.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/app/models/user.rb": [
         1,
         null,
         null,
@@ -575,12 +576,12 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/app/models/application_record.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/app/helpers/application_helper.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/app/helpers/application_helper.rb": [
         1,
         1,
         0,
@@ -595,7 +596,7 @@
         null,
         null
       ],
-      "/Users/Antonella/Projects/rails_messaging_wookies/app/helpers/mailbox_helper.rb": [
+      "/Users/davidboll/projects/rails_messaging_wookies/app/helpers/mailbox_helper.rb": [
         1,
         1,
         null,
@@ -605,6 +606,6 @@
         null
       ]
     },
-    "timestamp": 1519220406
+    "timestamp": 1519324938
   }
 }
