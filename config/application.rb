@@ -40,6 +40,6 @@ module Mailboxer
       generate.controller_specs false
       generate.system_tests false
       generate.test_framework :rspec
-    end
+    end  
   end
 end
