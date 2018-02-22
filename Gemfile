@@ -17,6 +17,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
 group :test do
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'cucumber-rails'
 end
