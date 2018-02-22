@@ -1,6 +1,6 @@
 Feature: User login
   As a user
-  In order to acess my account
+  In order to access my account
   I want to be able to login
 
   Background:
