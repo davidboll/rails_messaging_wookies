@@ -13,10 +13,11 @@ Feature: User can send a message
    Given I am logged in
    Then I am redirected to inbox page
    Then I see "Hello, person"
-   # When I click "Inbox" link
-   When I click "Compose" button
-   And I choose "Aiden" as a "Recipient"
-   And I fill in "Subject" with "Hi"
-   And I fill in "Message" with "Fun Text"
-   And I click "Send Message"
-   Then I sees "Your message was successfully sent!"
+   Then I click "Inbox" link
+   Then I click "Compose" link
+   # And I choose "Aiden" as a "Recipient"
+   # And I fill in "Subject" with "Hi"
+   # Then show me the page
+   # And I fill in "Conversation" with "Fun Text"
+   And I send a mail to "David"
+   Then I see "Your message was successfully sent!"

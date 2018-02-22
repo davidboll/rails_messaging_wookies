@@ -17,6 +17,9 @@ Rails.application.routes.draw do
       post :trash
       post :untrash
     end
+
+  #get "conversations/new" => "conversations#new", as: :conversation_new
+
   end
 
 end

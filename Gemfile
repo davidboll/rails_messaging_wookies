@@ -25,6 +25,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'shoulda-matchers'
   gem 'launchy'
+  gem 'chromedriver-helper'
+  gem 'selenium-webdriver'
 end
 
 
