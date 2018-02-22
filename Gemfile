@@ -27,8 +27,6 @@ group :development, :test do
   gem 'launchy'
 end
 
-
-
 group :development do
   gem 'pry-byebug'
   gem 'spring'
