@@ -11,8 +11,9 @@ Feature: User can send a message
 
  Scenario:
    Given I am logged in
-   When I click "Inbox" link
-   Then I am redirected to "Inbox" page
+   Then I am redirected to inbox page
+   Then I see "Hello, person"
+   # When I click "Inbox" link
    When I click "Compose" button
    And I choose "Aiden" as a "Recipient"
    And I fill in "Subject" with "Hi"
