@@ -1,6 +1,6 @@
 Feature: User login
   As a user
-  In order to acess my account
+  In order to access my account
   I want to be able to login
 
   Background:
@@ -15,5 +15,4 @@ Feature: User login
     And I fill in "Password" with "password"
     And I click "Log in" button
     Given I am logged in
-    Then show me the page
     And I should see "Hello, David"
