@@ -1,12 +1,7 @@
-Given("following user is logged in") do |table|
-  table.hashes.each do |user|
-  end
+When("I click on {string}") do |string|
+  click_link(string)
 end
 
-# Given("I am on the landing-page") do
-#   visit root_path
-# end
-
-Then("I am logged out") do
-  pending # Write code here that turns the phrase above into concrete actions
+Then("I should see message {string}") do |message|
+  expect(page).to have_content message
 end
