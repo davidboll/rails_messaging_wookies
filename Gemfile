@@ -20,7 +20,11 @@ group :development, :test do
   gem 'coveralls', require: false
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'factory_bot_rails'
+  gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'launchy'
 end
 
 group :development do

@@ -9,7 +9,6 @@ class User < ApplicationRecord
   validates_uniqueness_of :name
 
   acts_as_messageable
-
   def mailboxer_name
     name
   end
