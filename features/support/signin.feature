@@ -3,13 +3,9 @@ Feature: User can sign up
   So visitors can create an account
   There should be a sign-up form on my site
 
-  # Background:
-  #   Given the following articles exist
-  #   | title         |  content      |
-  #   | Green is good |  Always green |
 
   Scenario: Creates and account
-    When user visit the site
+    Given user visit the site
     Then user click on "Sign up" button
     And he can fill in the sign-in form
     And He fills in "name" with "Fleur"
@@ -21,7 +17,7 @@ Feature: User can sign up
 
 
     # sad path
-    
+
      # Scenario: User did not enter all fields
      #   Given User visits the site
      #   When User clicks on the "Sign up" button
@@ -41,4 +37,4 @@ Feature: User can sign up
 
 
 
-       Password is too short (minimum is 8 characters)
+      # Password is too short (minimum is 8 characters)
