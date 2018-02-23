@@ -18,15 +18,15 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
-  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+  gem 'rspec-rails'
 end
 
 group :development do
   gem 'pry-byebug'
   gem 'spring'
   gem 'web-console', '~> 2.0'
-  gem 'database_cleaner'
 end
 
 group :production do
