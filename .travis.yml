@@ -2,8 +2,18 @@ language: ruby
 cache: bundler
 rvm:
   - 2.4.3
-script: bundle exec rspec
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database rails_messaging_test;' -U postgres
+  - bundle exec rails db:migrate
+script:
+  - bundle exec rspec
+  - bundle exec cucumber
 deploy:
   provider: heroku
   api_key:
-    secure: 2033ab000844f9794d891dfee6aa2413d5108ec3a75eb1ff3800ede289542553f70f598454bb6368022f1c451f7879f3975083abe3721b1b4db3935028f5f312
+    secure: FnTNiOSRjUOJ4g/xrRRemVh9d1o0smq3h0PdhG2Vp6IHMtX9KNuie5Lpgu0YwfqvIfB0J9Z1d6Mn18GcnJ/BIqOUo6RguoXFXV6wjOpMftSMM4tgvuT6mYqtpYyW3+I/HsP60S24VBsutKPCPN1lkdhi8dDUYDMKKFYx/9b8ps98A6UhOY+8tdnxKDEZT+svlHR/Lde/Xu6DmkcJm+3xPW6ly7X9NvquYlonMHoeIDDbWd+BFD+suOIh7DFngyfz90VRsC8i+jiCR8kH+aQWn4fkRuGk3xX/wNyozqKJrFe8BuTWWUKXSHMsm7KyjJOlecAUwjYbMMujhvob7keUO5qkDVoE0+bIOA9FH0uA/+ARNOlpMA7yvdh1AwGivhqq2XolNZ4HjiRpBg/zG5pM+/yZnEvyvBJRPVJAxSYg2nnysQ/m3bjftMZRWje+2Yx29zY1dmbFVzhiQfcOeNHGd9w+SuQZGniZ7jnvTrAXkODgE/DlVe+4EXKFJzHoioypH8NVYVHWK4tuIrF3mJClrr6D6uIDidu22Jproww+42Q79KlkWmN+k9fMpWWrEFr5fIOnYtVfV0+gNSgrSKISsscXmkaPuMkzhGx6A80iJomTQVJjUZA2+Au9yt8tV0sElFO4Li7eSP1p0mzpbiM3qWJDZABMIhi9kfIPcR4TpBY=
+  app: wookiesonrails
+  on:
+    repo: CraftAcademy/rails_messaging_wookies
